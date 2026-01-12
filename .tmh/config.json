@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://staging.uipath.com/testcloud_team/swong_anz/testmanager_/",
+  "defaultProject": {
+    "id": "000d764d-75a1-0000-6a02-0b49211fff75",
+    "name": "UiBank",
+    "key": "UIB"
+  }
+}

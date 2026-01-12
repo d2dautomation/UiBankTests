@@ -1,0 +1,6 @@
+{
+  "Name": "UiBank",
+  "ProjectType": "Tests",
+  "Description": "Test Automation Project for UiBank",
+  "MainFile": "Main.xaml"
+}

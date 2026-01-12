@@ -1,0 +1,12 @@
+﻿{
+  "Name": "UiBank-Welcome",
+  "Type": "Screen",
+  "Id": "jSrwFJ9rL0eqE1Ru_dRYkQ",
+  "Reference": "7etD-T4vCkO2OmQRHGDN7Q/jSrwFJ9rL0eqE1Ru_dRYkQ",
+  "ParentRef": "7etD-T4vCkO2OmQRHGDN7Q/VU-ysYguYE-Rq2plyOAU3w",
+  "Created": "2026-01-05T08:12:10.2126243Z",
+  "Updated": "2026-01-05T08:12:10.2126243Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
