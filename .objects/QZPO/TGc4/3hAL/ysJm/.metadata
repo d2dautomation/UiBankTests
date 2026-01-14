@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Important Notice",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ysJmHCp2rEm-M_6BysK3_w",
+  "Reference": "7etD-T4vCkO2OmQRHGDN7Q/ysJmHCp2rEm-M_6BysK3_w",
+  "ParentRef": "7etD-T4vCkO2OmQRHGDN7Q/3hALHxwpKUmFIRNrW78fow",
+  "Created": "2026-01-14T22:02:37.6589602Z",
+  "Updated": "2026-01-14T22:02:37.6589602Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

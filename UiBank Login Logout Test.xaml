@@ -222,14 +222,14 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1047.7142857142856,1900.5714285714287" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="830.5714285714286,1895.4285714285713" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <uix:NSetRuntimeBrowser BrowserType="[NBrowserType.Chrome]" DisplayName="Set Runtime Browser" sap:VirtualizedContainerService.HintSize="452.57142857142856,124" sap2010:WorkflowViewState.IdRef="NSetRuntimeBrowser_1" Version="V5" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="UiBank-Welcome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452.57142857142856,1753.7142857142858" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Edge: UiBank-Welcome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452.57142857142856,1748.5714285714287" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Version="V2">
       <uix:NApplicationCard.AutoGenerationOptions>
         <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
           <uix:GenerationOptions.ExpectedOutputs>
@@ -244,7 +244,7 @@
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450.2857142857143,1558.857142857143" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450.2857142857143,1553.7142857142858" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="Username" />
               <Variable x:TypeArguments="ss:SecureString" Name="Password" />
@@ -257,10 +257,10 @@
             <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="UiBank Credential" CacheStrategy="None" DisplayName="Get Credential" FolderPath="UiBank" sap:VirtualizedContainerService.HintSize="416,191.42857142857142" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]" />
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type the username into the Username input box using username variable" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,251.42857142857142" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Text="[Username]" Version="V5">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" ContentHash="Pa4FATLhakS65WP1q_tVJA" DesignTimeRectangle="376, 508, 226, 53" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='form-control uibank-input ng-untouched ng-pristine ng-valid' placeholder='Enter username' aaname='Username' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="982c7e28-29e3-468b-9c9f-748aa8c04704" InformativeScreenshot="712b36f419aee99da94c46d5a5b96005.png" IsResponsive="True" Reference="7etD-T4vCkO2OmQRHGDN7Q/AbioK-K7MEKlb1USL9Akhg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" ContentHash="7Ojz-kVOokSExnIxazHHbQ" DesignTimeRectangle="717, 782, 494, 93" DesignTimeScaleFactor="1.75" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='form-control uibank-input ng-untouched ng-pristine ng-valid' placeholder='Enter username' aaname='Username' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="453f2170-58f5-44d8-848e-e9107a75d418" InformativeScreenshot="0e407f1214a6fd8e2686e0a7018e5282.png" IsResponsive="True" Reference="7etD-T4vCkO2OmQRHGDN7Q/0hlt60A5OEO4D9bR6E5l_Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="376, 478, 58, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='uibank-label' aaname='Username' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Username' /&gt;" Guid="5ac78d65-7afc-4f96-807a-124d82d24976" SearchSteps="FuzzySelector" />
+                      <uix:Target DesignTimeRectangle="717, 730, 101, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='uibank-label' aaname='Username' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Username' /&gt;" Guid="8a2e3c85-98eb-4cd4-b1c9-426f162cc08f" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                   <uix:TargetAnchorable.PointOffset>
@@ -293,9 +293,9 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on the Sign In button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,270" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on the Sign In button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266.85714285714283" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Version="V5">
               <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" ContentHash="f_0z4d2PEEOk_FUgy30FJQ" DesignTimeRectangle="438, 697, 101, 50" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="f6a73587-e762-4841-af6d-763dd1a7c468" InformativeScreenshot="d818a111593047170fd5715a9bb9460a.png" Reference="7etD-T4vCkO2OmQRHGDN7Q/slu-Gkyuu0usYuCq-NJ8Uw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="Selector" Version="V6">
+                <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" ContentHash="-OcPgnYMMkaQreAL9WfKnw" DesignTimeRectangle="438, 697, 101, 50" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="f6a73587-e762-4841-af6d-763dd1a7c468" InformativeScreenshot="d818a111593047170fd5715a9bb9460a.png" Reference="7etD-T4vCkO2OmQRHGDN7Q/slu-Gkyuu0usYuCq-NJ8Uw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
                     <uix:PointOffset />
                   </uix:TargetAnchorable.PointOffset>
@@ -315,7 +315,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on the 'I agree to the Privacy Policy' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,270" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on the 'I agree to the Privacy Policy' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266.85714285714283" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" ContentHash="xdHk6i6ky028LOASGlurPA" DesignTimeRectangle="642, 662, 263, 50" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='I agree to the Privacy Policy →' parentid='mat-mdc-dialog-1' tag='BUTTON' type='button' class='btn center-button btn-black' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='I agree to the Privacy Policy →' /&gt;" Guid="e47ec6b4-4afe-4178-8010-cf704eaa2ca9" InformativeScreenshot="4e08f47fb8bdbca5e2d3f8f5c54ffba2.png" Reference="7etD-T4vCkO2OmQRHGDN7Q/XS45f-2S40u26gB7s3cZoQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -334,11 +334,7 @@
                     <InArgument x:TypeArguments="x:Boolean" />
                   </uix:VerifyExecutionOptions.Retry>
                   <uix:VerifyExecutionOptions.Target>
-                    <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts" ContentHash="_MlpJpWrbUymLRmXyYCVCA" DesignTimeRectangle="364, 308, 302, 58" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="40db677c-4330-4ca7-8710-791c40cf9304" InformativeScreenshot="c900813a1b2e64ed36b84f12734a6b2a.png" Reference="7etD-T4vCkO2OmQRHGDN7Q/_JzrrOZsHUCPM8N1iAbb9A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank - Accounts' /&gt;" SearchSteps="Selector" Version="V6">
-                      <uix:TargetAnchorable.PointOffset>
-                        <uix:PointOffset />
-                      </uix:TargetAnchorable.PointOffset>
-                    </uix:TargetAnchorable>
+                    <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts" ContentHash="cxbneymDHEK-aH9Scai15g" DesignTimeRectangle="700, 507, 582, 100" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="e2ea98de-1895-499d-a936-820150690b94" InformativeScreenshot="10b68d2a98bd914b5221b380775f9945.png" Reference="7etD-T4vCkO2OmQRHGDN7Q/P-FTNksOFki7pWhBjZKyoA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='UiBank - Accounts' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                   </uix:VerifyExecutionOptions.Target>
                   <uix:VerifyExecutionOptions.Timeout>
                     <InArgument x:TypeArguments="x:Double" />
@@ -346,7 +342,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,261" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,261.7142857142857" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts" ContentHash="qkQtMdl_cUC4zLSplF9gcg" DesignTimeRectangle="1220, 162, 77, 43" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Logout' tag='A' /&gt;" Guid="71616cc6-76e6-40d0-b1eb-11e489f444b9" InformativeScreenshot="af357a3e627145c1b534c2f55747b4c8.png" Reference="7etD-T4vCkO2OmQRHGDN7Q/xP5tOHe7ykiqeYlEr9KDPw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank - Accounts' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -360,7 +356,7 @@
                     <InArgument x:TypeArguments="x:Boolean" />
                   </uix:VerifyExecutionOptions.Retry>
                   <uix:VerifyExecutionOptions.Target>
-                    <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" ContentHash="f_0z4d2PEEOk_FUgy30FJQ" DesignTimeRectangle="438, 697, 101, 50" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="f6a73587-e762-4841-af6d-763dd1a7c468" InformativeScreenshot="d818a111593047170fd5715a9bb9460a.png" Reference="7etD-T4vCkO2OmQRHGDN7Q/slu-Gkyuu0usYuCq-NJ8Uw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="Selector" Version="V6">
+                    <uix:TargetAnchorable BrowserURL="uibank.uipath.com/welcome" ContentHash="-OcPgnYMMkaQreAL9WfKnw" DesignTimeRectangle="438, 697, 101, 50" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="f6a73587-e762-4841-af6d-763dd1a7c468" InformativeScreenshot="d818a111593047170fd5715a9bb9460a.png" Reference="7etD-T4vCkO2OmQRHGDN7Q/slu-Gkyuu0usYuCq-NJ8Uw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="Selector" Version="V6">
                       <uix:TargetAnchorable.PointOffset>
                         <uix:PointOffset />
                       </uix:TargetAnchorable.PointOffset>
@@ -383,7 +379,7 @@
         </ActivityFunc>
       </uix:NApplicationCard.OCREngine>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="244, 99, 1562, 1012" BrowserType="Chrome" ContentHash="8KoB26t-BEaJrFu0e6-zxA" IconBase64="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" InformativeScreenshot="2a046f4aba862d1157eb2578e88be13c.jpg" Reference="7etD-T4vCkO2OmQRHGDN7Q/jSrwFJ9rL0eqE1Ru_dRYkQ" Selector="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" Url="https://uibank.uipath.com/welcome" Version="V2">
+        <uix:TargetApp Area="-12, -12, 3048, 1830" BrowserType="Edge" ContentHash="Q-cQxfGSn0ifLrtCZgC8jw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAJkAAACZCAMAAAALgmiIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABgUExURfpGFvyMbv////7Rxf/z8PtpQv/5+PyumfyAX/x1UftjO/7WzP3Lvf25p/7o4vtdM/2/r/2dhPx6WP2zoPtXLP7u6fpMHf7i2vtvSfyokf7c0/yGZvpSJf2XfP3Ftvyiiq2qGj8AAAMiSURBVHhe7ZvplqIwEEbTwQ0dl3FBG1t5/7ecg7RCfRXQHJPJLN/9acXUFUIRpTTVn4ohhBBCCCHGmAtuk34fH+giWdlkZOgioZkDmvlDM39o5g/N/KGZP8nNRtkEX2pIa7bb3rJsdxhIbHY8PfKcjhhMabYrupk+MZzOrBRixiwgnsxsMoZUc7gSkpl9Yio8n8nM2tV/Zy0HJDP7wlSYLJXZATMZYzIxwstskUlGIqo5wvhO0XLlXXbf6xzRQZqtISo/pAa/zH60oRJCNT+6701mZqGa1ciKlswMy5kxX7KgJTO7QMyYcyea0myEk30dOtGUZiqzvDJ1HIhoBvcnOJdJzexi/oisZcWoSWlmJ9NZLTefTR077qRmN0p84Zv0Zn3Q7AbNaObmvzQbDNLsDs1o5oZmGKTZHZrRzA3NMEizOzSjmRuaYZBmd2hGMzc0w+C/Y9b+ft+Ajz2QweSDQV+zHKK+Zpeh4FtmM4hWIqrBTyLGBzXDyXzNRPsPTvaWGf65DSdDBtdlUDPs/hiLqGIEw+W1HNRsCdHC8SCrg5pbPCgPanbFcN/TrIYpDhdPfYOaqdOjWrMETdtbi2yvCWqmGgbmMiw5YOODzB3WTDUMYNNYF3UyZWEOa4aXgH763aIazJ4Ux/fMVhg3VzmgAxY/7OIKa6Z2G2bfVziOuMowdWAztdDM2N1QtVKfAQ9vYDN9Ot1qDjG8YQQ2U9uNev1scJDd7XGQMVMYE9rM1TdmTtfuapts8E5eoxZkaDNVbBuK2TLLSltm2RQr/zd4yMKbqXvnaxRqNQY3U9vB11CHLILZwbG6n4Jpo5g9e4sL7HyuiWCm7zvPKHSPfRwz76XmvLlGMRv1VAY3ha7ENVHM9LQD7Hv2cDhFIDP1NaqXMbR8PohlZjdql+Pk7LgqG6KZ2cPluVs+8GtRPDNrVzg5cBrwimtmbXnuP25bZ61oiWtWN8X+dOw+5hexL3IS3axecZuq2ub53ph1ns+qatl3OQqu8M94PMQhzOJAM39o5g/N/KGZPzTzh2b+0Mwfmvnz15qd8mQ4vl4QQggh5DV+AX8flQSKJaqiAAAAAElFTkSuQmCC" InformativeScreenshot="3c05426885f6d4ab55c0d2c5163a73af.jpg" Reference="7etD-T4vCkO2OmQRHGDN7Q/3hALHxwpKUmFIRNrW78fow" Selector="&lt;html app='msedge.exe' title='UiBank-Welcome' /&gt;" Url="https://uibank.uipath.com/welcome" Version="V2">
           <uix:TargetApp.Arguments>
             <InArgument x:TypeArguments="x:String" />
           </uix:TargetApp.Arguments>
