@@ -228,7 +228,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NSetRuntimeBrowser BrowserType="[CType(System.Enum.Parse(GetType(NBrowserType), &quot;Edge&quot;), NBrowserType)]" DisplayName="Set Runtime Browser" sap:VirtualizedContainerService.HintSize="452.57142857142856,124" sap2010:WorkflowViewState.IdRef="NSetRuntimeBrowser_1" Version="V5" />
+    <uix:NSetRuntimeBrowser BrowserType="[NBrowserType.Chrome]" DisplayName="Set Runtime Browser" sap:VirtualizedContainerService.HintSize="452.57142857142856,124" sap2010:WorkflowViewState.IdRef="NSetRuntimeBrowser_1" Version="V5" />
     <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="UiBank-Welcome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452.57142857142856,1753.7142857142858" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a3c958c3-1b02-4071-9db0-f45f856b8aaf" Version="V2">
       <uix:NApplicationCard.AutoGenerationOptions>
         <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
